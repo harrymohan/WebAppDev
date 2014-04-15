@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+}
+header, main, footer{
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container, hr .container {
+	max-width: 855px;
+	margin:auto;
+}
+header{
+	overflow:auto;
+}
+header h1{
+	float:left;
+width:285px;
+}
+
+header p{
+	width:570px;
+	float: right;
+	font-weight: bold;
+}
