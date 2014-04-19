@@ -2,27 +2,68 @@
 	margin:0px;
 	padding:0px;
 }
-body{
-	
+
+body {
+    width: 855px;
+    margin: auto;
+    background: ivory;
+    font-size: 100%;
+    font-family: sans-serif;
 }
-header, main, footer{
-	min-width: 855px;
+header {
+  overflow: auto;
+  border-bottom: 1px solid darkslategray;
 }
 
-header .container, main .container, footer .container, hr .container {
-	max-width: 855px;
-	margin:auto;
-}
-header{
-	overflow:auto;
-}
 header h1{
+	float: left;
+}
+header p{
+	float:right;
+	width:570px;
+}
+main{
+
+	overflow: auto;
+	border-bottom: 1px solid darkslategray;
+}
+main .comment-input{
+ 	 width: 285px;
 	float:left;
-width:285px;
+}
+main .comment-input p {
+  margin-bottom: 10px;
+}
+main .comment-input input{
+	width: 80%;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+main .comment-input button {
+    font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background: olivedrab;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 5px;
 }
 
-header p{
-	width:570px;
-	float: right;
-	font-weight: bold;
+main .comments{
+	float:right;
+	width: 570px;
+}
+
+main .comments p:nth-child(even){
+	background: lavender;
+}
+main .comments p:nth-child(odd){
+	background: gainsboro;
+}
+footer {
+    font-size: smaller;
+    margin-top: 5px;
+    clear: both;
 }
