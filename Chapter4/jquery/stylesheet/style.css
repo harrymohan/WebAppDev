@@ -1,0 +1,25 @@
+.headbody{
+	background: #ff1e72;
+	border-radius: 10px;
+	margin: 0px;
+	overflow: auto;
+	padding:0px;
+	width:870px;
+	color:#142d69;
+}
+
+.mainbody{
+	background: #142d69;
+	width: 870px;
+	color: #96b7ff;
+}
+
+.footerbody{
+	background: #e3e3e3;
+	width: 870px;
+	border-radius: 2px;
+	margin: 0px;
+	
+	padding:0px;
+	width:870px;
+}
