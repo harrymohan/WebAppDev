@@ -11,6 +11,7 @@ var main = function()
  	{
  		$new_comment = $("<p>").text($(".comment-input input").val());
  		$(".comments").append($new_comment);
+ 		$(".comment-input input").val("");
  	}
  });
 };
