@@ -1,0 +1,55 @@
+body{
+	background-color: #f9e933;
+}
+header, main, footer{
+
+	min-width: 855px;
+	
+}
+header{
+	background: white;
+	overflow: auto;
+}
+main{
+	background:white;
+}
+footer{
+	overflow: auto;
+}
+header .container, main .container, footer .container{
+	max-width: 855px;
+	margin: auto;
+}
+header h1{
+	float: left;
+	width: 570px;
+}
+header nav{
+	float: right;
+	width: 285px;
+}
+
+footer .contact{
+	float:left;
+	width:570px;
+}
+
+
+footer .sitemap{
+	float:right;
+	width:285px;
+}
+
+.tabs a span{
+	display: inline-block;
+	border-radius: 5 px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span .active{
+	background: #eee;
+}
